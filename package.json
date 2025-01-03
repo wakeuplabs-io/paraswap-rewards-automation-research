@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "workspaces": [
-    "app/paraswap-event-processor"
+    "app/paraswap-event-processor",
+    "app/paraswap-augustus-subgraph"
   ],
   "devDependencies": {
     "@types/node": "^22.10.5",

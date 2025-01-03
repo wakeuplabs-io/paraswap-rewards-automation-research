@@ -1,12 +1,5 @@
 import dayjs from 'dayjs';
-import {
-  createPublicClient,
-  hexToBigInt,
-  hexToNumber,
-  http,
-  parseAbiItem,
-  parseEther,
-} from 'viem';
+import { createPublicClient, http, parseAbiItem } from 'viem';
 import { mainnet } from 'viem/chains';
 
 const PARASWAP_AUGUSTUS_RFQ_MAINNET =
@@ -23,8 +16,6 @@ export const publicClient = createPublicClient({
 });
 
 const lastBlock = await publicClient.getBlock();
-
-// console.log('last block:', dayjs.unix(Number(lastBlock.timestamp)).toDate());
 
 const log = (
   await publicClient.getLogs({

@@ -1,0 +1,23 @@
+{
+  "name": "paraswap-rewards-automation-research",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "app/paraswap-event-processor",
+    "app/paraswap-augustus-subgraph"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  }
+}

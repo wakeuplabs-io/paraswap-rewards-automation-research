@@ -1,0 +1,25 @@
+{
+  "name": "paraswap-snapshot-proposal-creator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "create-proposal": "tsx index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@ethersproject/wallet": "^5.7.0",
+    "@snapshot-labs/snapshot.js": "^0.12.41",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "tsx": "^4.19.2"
+  }
+}

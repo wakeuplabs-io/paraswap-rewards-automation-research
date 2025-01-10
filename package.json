@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "paraswap-subgraph": "npm --prefix app/paraswap-augustus-subgraph run filledOrders",
+    "paraswap-event-processor": "npm --prefix app/paraswap-event-processor run start",
+    "paraswap-create-snapshot-proposal": "npm --prefix app/paraswap-snapshot-proposal-creator run create-proposal"
   },
   "author": "",
   "license": "ISC",
   "workspaces": [
     "app/paraswap-event-processor",
-    "app/paraswap-augustus-subgraph"
+    "app/paraswap-augustus-subgraph",
+    "app/paraswap-snapshot-proposal-creator"
   ],
   "devDependencies": {
     "@types/node": "^22.10.5",

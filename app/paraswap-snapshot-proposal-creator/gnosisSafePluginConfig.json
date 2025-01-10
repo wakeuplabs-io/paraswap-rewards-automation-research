@@ -1,0 +1,56 @@
+{
+    "safeSnap": {
+        "safes": [
+            {
+                "network": "10",
+                "umaAddress": "0x0000000000000000000000000000000000000000",
+                "realityAddress": "0xSWITCH_WITH_REALITY_MODULE_ADDRESS",
+                "txs": [
+                    {
+                        "hash": null,
+                        "nonce": 0,
+                        "mainTransaction": {
+                            "operation": "0",
+                            "nonce": "0",
+                            "token": {
+                                "name": "Ether",
+                                "decimals": 18,
+                                "symbol": "ETH",
+                                "logoUri": "https://safe-transaction-assets.safe.global/chains/1/currency_logo.png",
+                                "address": "main"
+                            },
+                            "recipient": "0x0000000000000000000000000000000000000000",
+                            "type": "transferFunds",
+                            "data": "0x",
+                            "to": "0x0000000000000000000000000000000000000000",
+                            "amount": "10000000000",
+                            "value": "10000000000"
+                        },
+                        "transactions": [
+                            {
+                                "operation": "0",
+                                "nonce": 0,
+                                "token": {
+                                    "name": "Ether",
+                                    "decimals": 18,
+                                    "symbol": "ETH",
+                                    "logoUri": "https://safe-transaction-assets.safe.global/chains/1/currency_logo.png",
+                                    "address": "main"
+                                },
+                                "recipient": "0x0000000000000000000000000000000000000000",
+                                "type": "transferFunds",
+                                "data": "0x",
+                                "to": "0x0000000000000000000000000000000000000000",
+                                "amount": "10000000000",
+                                "value": "10000000000"
+                            }
+                        ]
+                    }
+                ],
+                "multiSendAddress": "0x998739BFdAAdde7C933B942a68053933098f9EDa",
+                "hash": null
+            }
+        ],
+        "valid": true
+    }
+}

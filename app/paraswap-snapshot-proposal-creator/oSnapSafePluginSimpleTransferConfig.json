@@ -1,0 +1,36 @@
+{
+    "safeSnap": {
+        "safes": [
+            {
+                "network": "10",
+                "umaAddress": "0x0000000000000000000000000000000000000000",
+                "realityAddress": "0xSWITCH_WITH_REALITY_MODULE_ADDRESS",
+                "txs": [
+                    {
+                        "hash": null,
+                        "nonce": 0,
+                        "mainTransaction": {
+                            "to": "0x0000000000000000000000000000000000000000",
+                            "value": "100000000000000",
+                            "data": "0x",
+                            "nonce": "0",
+                            "operation": "0"
+                        },
+                        "transactions": [
+                            {
+                                "to": "0x0000000000000000000000000000000000000000",
+                                "value": "100000000000000",
+                                "data": "0x",
+                                "nonce": 0,
+                                "operation": "0"
+                            }
+                        ]
+                    }
+                ],
+                "multiSendAddress": "0x998739BFdAAdde7C933B942a68053933098f9EDa",
+                "hash": null
+            }
+        ],
+        "valid": true
+    }
+}

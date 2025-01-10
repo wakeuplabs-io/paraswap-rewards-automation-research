@@ -1,0 +1,39 @@
+{
+    "oSnap": {
+        "safes": [
+            {
+                "safeName": "Safe OP",
+                "safeAddress": "0x0000000000000000000000000000000000000000",
+                "network": "10",
+                "transactions": [
+                    {
+                        "data": "0x",
+                        "amount": "100000000000000",
+                        "recipient": "0x0000000000000000000000000000000000000000",
+                        "token": {
+                            "name": "OPTIMISM",
+                            "symbol": "OP",
+                            "address": "main",
+                            "decimals": 18,
+                            "logoUri": "https://optimistic.etherscan.io/images/svg/brands/optimism.svg?v=24.3.2.1",
+                            "balance": "0.001557",
+                            "verified": false,
+                            "chainId": "10"
+                        },
+                        "type": "transferFunds",
+                        "to": "0x0000000000000000000000000000000000000000",
+                        "value": "100000000000000",
+                        "formatted": [
+                            "0x0000000000000000000000000000000000000000",
+                            0,
+                            "100000000000000",
+                            "0x"
+                        ],
+                        "isValid": true
+                    }
+                ],
+                "moduleAddress": "0x2dadc3547b0d8b403b8d508e1d4ca14560e77d1f"
+            }
+        ]
+    }
+}

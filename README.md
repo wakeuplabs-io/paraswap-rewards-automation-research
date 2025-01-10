@@ -1,1 +1,1 @@
-# paraswap-rewards-automation-research
+# Paraswap Rewards Automation Research

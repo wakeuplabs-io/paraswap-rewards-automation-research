@@ -10,7 +10,8 @@
   "license": "ISC",
   "workspaces": [
     "app/paraswap-event-processor",
-    "app/paraswap-augustus-subgraph"
+    "app/paraswap-augustus-subgraph",
+    "app/paraswap-snapshot-proposal-creator"
   ],
   "devDependencies": {
     "@types/node": "^22.10.5",
